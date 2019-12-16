@@ -12,7 +12,9 @@ class TrainersController < ApplicationController
       def show
         trainer = Trainer.find_by(id: params[:id])
         render json: {id: trainer.id, name: trainer.name} 
-      end
+      end 
+
+    
 
   
 
