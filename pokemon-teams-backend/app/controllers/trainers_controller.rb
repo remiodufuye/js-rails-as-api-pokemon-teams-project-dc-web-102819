@@ -14,6 +14,7 @@ class TrainersController < ApplicationController
         render json: {id: trainer.id, name: trainer.name} 
       end
 
+  
 
 end
 
